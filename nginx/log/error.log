@@ -1,0 +1,5 @@
+2021/10/28 10:17:05 [emerg] 1#1: host not found in upstream "kerenapp" in /etc/nginx/conf.d/site.conf:7
+2021/10/28 10:59:00 [emerg] 10#10: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 16:14:29 [emerg] 9#9: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 17:06:29 [emerg] 11#11: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 17:14:29 [emerg] 10#10: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
