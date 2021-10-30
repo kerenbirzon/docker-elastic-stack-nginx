@@ -67,7 +67,6 @@ services:
     ports:
       - "80:80"
       - "443:443"
-        # command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
     networks:
       - elk
 
@@ -75,8 +74,8 @@ services:
     image: docker.elastic.co/beats/filebeat:7.9.2
     entrypoint: "filebeat -e -strict.perms=false"
     volumes:
-      - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
-      - ./nginx/log:/var/log/nginx
+      - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./nginx/log:/var/log/nginx:ro
     networks:
       - elk
     depends_on: 

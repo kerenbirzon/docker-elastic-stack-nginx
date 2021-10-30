@@ -2,7 +2,8 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /var/log/nginx/*.log
+    - '/var/log/nginx/access*.*log*'
+    #- '/var/lib/docker/containers/*/*.log'
 
 output.logstash:
   enabled: true

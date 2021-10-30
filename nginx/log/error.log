@@ -318,3 +318,142 @@
 2021/10/30 11:42:23 [notice] 1#1: start worker processes
 2021/10/30 11:42:23 [notice] 1#1: start worker process 32
 2021/10/30 11:42:23 [notice] 1#1: start worker process 33
+2021/10/30 13:11:28 [error] 32#32: *17 open() "/usr/share/nginx/html/owa/auth/logon.aspx" failed (2: No such file or directory), client: 192.241.204.206, server: kerenapp.dev, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "20.86.33.105"
+2021/10/30 13:12:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 13:12:36 [notice] 33#33: gracefully shutting down
+2021/10/30 13:12:36 [notice] 33#33: exiting
+2021/10/30 13:12:36 [notice] 33#33: exit
+2021/10/30 13:12:36 [notice] 32#32: gracefully shutting down
+2021/10/30 13:12:36 [notice] 32#32: exiting
+2021/10/30 13:12:36 [notice] 32#32: exit
+2021/10/30 13:12:36 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/10/30 13:12:36 [notice] 1#1: worker process 33 exited with code 0
+2021/10/30 13:12:36 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 13:12:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/10/30 13:12:36 [notice] 1#1: worker process 32 exited with code 0
+2021/10/30 13:12:36 [notice] 1#1: exit
+2021/10/30 13:12:38 [notice] 1#1: using the "epoll" event method
+2021/10/30 13:12:38 [notice] 1#1: nginx/1.21.3
+2021/10/30 13:12:38 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 13:12:38 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 13:12:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 13:12:38 [notice] 1#1: start worker processes
+2021/10/30 13:12:38 [notice] 1#1: start worker process 30
+2021/10/30 13:12:38 [notice] 1#1: start worker process 31
+2021/10/30 13:59:09 [error] 30#30: *5 open() "/usr/share/nginx/html/GponForm/diag_Form" failed (2: No such file or directory), client: 23.95.191.195, server: kerenapp.dev, request: "POST /GponForm/diag_Form?style/ HTTP/1.1", host: "192.168.0.1:443"
+2021/10/30 15:57:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 15:57:51 [notice] 31#31: gracefully shutting down
+2021/10/30 15:57:51 [notice] 31#31: exiting
+2021/10/30 15:57:51 [notice] 31#31: exit
+2021/10/30 15:57:51 [notice] 30#30: gracefully shutting down
+2021/10/30 15:57:51 [notice] 30#30: exiting
+2021/10/30 15:57:51 [notice] 30#30: exit
+2021/10/30 15:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2021/10/30 15:57:51 [notice] 1#1: worker process 31 exited with code 0
+2021/10/30 15:57:51 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 15:57:51 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2021/10/30 15:57:51 [notice] 1#1: worker process 30 exited with code 0
+2021/10/30 15:57:51 [notice] 1#1: exit
+2021/10/30 15:57:53 [notice] 1#1: using the "epoll" event method
+2021/10/30 15:57:53 [notice] 1#1: nginx/1.21.3
+2021/10/30 15:57:53 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 15:57:53 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 15:57:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 15:57:53 [notice] 1#1: start worker processes
+2021/10/30 15:57:53 [notice] 1#1: start worker process 29
+2021/10/30 15:57:53 [notice] 1#1: start worker process 30
+2021/10/30 16:06:49 [error] 30#30: *7 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 211.40.129.246, server: kerenapp.dev, request: "GET /_ignition/execute-solution HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/_ignition/execute-solution"
+2021/10/30 16:08:32 [error] 30#30: *13 open() "/usr/share/nginx/html/manager/html" failed (2: No such file or directory), client: 211.40.129.246, server: kerenapp.dev, request: "GET /manager/html HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/manager/html"
+2021/10/30 16:30:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 16:30:25 [notice] 29#29: gracefully shutting down
+2021/10/30 16:30:25 [notice] 29#29: exiting
+2021/10/30 16:30:25 [notice] 29#29: exit
+2021/10/30 16:30:25 [notice] 30#30: gracefully shutting down
+2021/10/30 16:30:25 [notice] 30#30: exiting
+2021/10/30 16:30:25 [notice] 30#30: exit
+2021/10/30 16:30:25 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/10/30 16:30:25 [notice] 1#1: worker process 29 exited with code 0
+2021/10/30 16:30:25 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 16:30:25 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2021/10/30 16:30:25 [notice] 1#1: worker process 30 exited with code 0
+2021/10/30 16:30:25 [notice] 1#1: exit
+2021/10/30 16:30:27 [notice] 1#1: using the "epoll" event method
+2021/10/30 16:30:27 [notice] 1#1: nginx/1.21.3
+2021/10/30 16:30:27 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 16:30:27 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 16:30:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 16:30:27 [notice] 1#1: start worker processes
+2021/10/30 16:30:27 [notice] 1#1: start worker process 29
+2021/10/30 16:30:27 [notice] 1#1: start worker process 30
+2021/10/30 18:39:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 18:39:32 [notice] 29#29: gracefully shutting down
+2021/10/30 18:39:32 [notice] 30#30: gracefully shutting down
+2021/10/30 18:39:32 [notice] 29#29: exiting
+2021/10/30 18:39:32 [notice] 30#30: exiting
+2021/10/30 18:39:32 [notice] 29#29: exit
+2021/10/30 18:39:32 [notice] 30#30: exit
+2021/10/30 18:39:32 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/10/30 18:39:32 [notice] 1#1: worker process 29 exited with code 0
+2021/10/30 18:39:32 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 18:39:32 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2021/10/30 18:39:32 [notice] 1#1: worker process 30 exited with code 0
+2021/10/30 18:39:32 [notice] 1#1: exit
+2021/10/30 18:39:34 [notice] 1#1: using the "epoll" event method
+2021/10/30 18:39:34 [notice] 1#1: nginx/1.21.3
+2021/10/30 18:39:34 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 18:39:34 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 18:39:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 18:39:34 [notice] 1#1: start worker processes
+2021/10/30 18:39:34 [notice] 1#1: start worker process 29
+2021/10/30 18:39:34 [notice] 1#1: start worker process 30
+2021/10/30 19:18:16 [error] 29#29: *5 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:17 [error] 29#29: *4 "/usr/share/nginx/html/console/index.html" is not found (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "GET /console/ HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:17 [error] 29#29: *7 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:18 [error] 29#29: *8 open() "/usr/share/nginx/html/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:20 [error] 29#29: *9 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "GET /_ignition/execute-solution HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:23 [error] 29#29: *12 open() "/usr/share/nginx/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:24 [error] 29#29: *14 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:24 [error] 29#29: *15 open() "/usr/share/nginx/html/api/jsonws/invoke" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "POST /api/jsonws/invoke HTTP/1.1", host: "20.86.33.105:443"
+2021/10/30 19:18:26 [error] 29#29: *16 open() "/usr/share/nginx/html/mifs/.;/services/LogService" failed (2: No such file or directory), client: 45.146.164.110, server: kerenapp.dev, request: "POST /mifs/.;/services/LogService HTTP/1.1", host: "20.86.33.105:443", referrer: "https://20.86.33.105:443"
+2021/10/30 20:01:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 20:01:07 [notice] 30#30: gracefully shutting down
+2021/10/30 20:01:07 [notice] 30#30: exiting
+2021/10/30 20:01:07 [notice] 30#30: exit
+2021/10/30 20:01:07 [notice] 29#29: gracefully shutting down
+2021/10/30 20:01:07 [notice] 29#29: exiting
+2021/10/30 20:01:07 [notice] 29#29: exit
+2021/10/30 20:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2021/10/30 20:01:07 [notice] 1#1: worker process 30 exited with code 0
+2021/10/30 20:01:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 20:01:07 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2021/10/30 20:01:07 [notice] 1#1: worker process 29 exited with code 0
+2021/10/30 20:01:07 [notice] 1#1: exit
+2021/10/30 20:01:41 [notice] 1#1: using the "epoll" event method
+2021/10/30 20:01:41 [notice] 1#1: nginx/1.21.3
+2021/10/30 20:01:41 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 20:01:41 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 20:01:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 20:01:41 [notice] 1#1: start worker processes
+2021/10/30 20:01:41 [notice] 1#1: start worker process 33
+2021/10/30 20:01:41 [notice] 1#1: start worker process 34
+2021/10/30 20:41:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 20:41:30 [notice] 33#33: gracefully shutting down
+2021/10/30 20:41:30 [notice] 34#34: gracefully shutting down
+2021/10/30 20:41:30 [notice] 33#33: exiting
+2021/10/30 20:41:30 [notice] 34#34: exiting
+2021/10/30 20:41:30 [notice] 33#33: exit
+2021/10/30 20:41:30 [notice] 34#34: exit
+2021/10/30 20:41:30 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/10/30 20:41:30 [notice] 1#1: worker process 34 exited with code 0
+2021/10/30 20:41:30 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 20:41:30 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/10/30 20:41:30 [notice] 1#1: worker process 33 exited with code 0
+2021/10/30 20:41:30 [notice] 1#1: exit
+2021/10/30 20:41:32 [notice] 1#1: using the "epoll" event method
+2021/10/30 20:41:32 [notice] 1#1: nginx/1.21.3
+2021/10/30 20:41:32 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 20:41:32 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 20:41:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 20:41:32 [notice] 1#1: start worker processes
+2021/10/30 20:41:32 [notice] 1#1: start worker process 30
+2021/10/30 20:41:32 [notice] 1#1: start worker process 31
