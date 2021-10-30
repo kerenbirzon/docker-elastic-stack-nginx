@@ -57,37 +57,17 @@ services:
     depends_on:
       - elasticsearch
 
-        #app:
-    #build : ./app
-      #volumes:
-      #- ./app/:/usr/src/app
-        #- /usr/src/app/node_modules/ # make node_module empty in container
-        #command: npm start
-      #ports:
-      #      - "3000:3000"
-        #    networks:
-      #      - elk
 
   nginx:
     image: nginx
     volumes:
       - ./nginx/config:/etc/nginx/conf.d
       - ./nginx/log:/var/log/nginx
-      - ./nginx/certbot/www:/var/www/certbot
-      - ./nginx/certbot/conf:/etc/letsencrypt 
+      - ./nginx/certs:/etc/ssl/nginxSSL
     ports:
       - "80:80"
       - "443:443"
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
-    networks:
-      - elk
-
-  certbot:
-    image: certbot/certbot
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
-    volumes:
-      - ./nginx/certbot/conf:/etc/letsencrypt
-      - ./nginx/certbot/www:/var/www/certbot
+        # command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
     networks:
       - elk
 

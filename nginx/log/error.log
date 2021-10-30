@@ -3,3 +3,247 @@
 2021/10/28 16:14:29 [emerg] 9#9: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
 2021/10/28 17:06:29 [emerg] 11#11: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
 2021/10/28 17:14:29 [emerg] 10#10: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:12:52 [emerg] 10#10: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:16:36 [emerg] 9#9: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:19:01 [emerg] 8#8: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:19:25 [emerg] 10#10: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:26:05 [emerg] 8#8: unknown directive "<<" in /etc/nginx/conf.d/site.conf:16
+2021/10/28 20:28:11 [emerg] 8#8: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/site.conf:34
+2021/10/28 20:28:42 [emerg] 9#9: unexpected end of file, expecting ";" or "}" in /etc/nginx/conf.d/site.conf:34
+2021/10/28 20:30:20 [notice] 9#9: using the "epoll" event method
+2021/10/28 20:30:20 [notice] 9#9: nginx/1.21.3
+2021/10/28 20:30:20 [notice] 9#9: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 20:30:20 [notice] 9#9: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 20:30:20 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 20:30:20 [notice] 9#9: start worker processes
+2021/10/28 20:30:20 [notice] 9#9: start worker process 11
+2021/10/28 20:30:20 [notice] 9#9: start worker process 12
+2021/10/28 20:36:10 [emerg] 10#10: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:8
+2021/10/28 20:37:55 [emerg] 7#7: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:8
+2021/10/28 20:38:00 [emerg] 9#9: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:8
+2021/10/28 20:38:50 [emerg] 9#9: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:8
+2021/10/28 20:40:31 [notice] 9#9: using the "epoll" event method
+2021/10/28 20:40:31 [notice] 9#9: nginx/1.21.3
+2021/10/28 20:40:31 [notice] 9#9: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 20:40:31 [notice] 9#9: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 20:40:31 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 20:40:31 [notice] 9#9: start worker processes
+2021/10/28 20:40:31 [notice] 9#9: start worker process 11
+2021/10/28 20:40:31 [notice] 9#9: start worker process 12
+2021/10/28 20:45:28 [emerg] 10#10: host not found in upstream "kerenap.dev" in /etc/nginx/conf.d/site.conf:6
+2021/10/28 20:47:23 [emerg] 9#9: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:6
+2021/10/28 20:48:47 [notice] 10#10: using the "epoll" event method
+2021/10/28 20:48:47 [notice] 10#10: nginx/1.21.3
+2021/10/28 20:48:47 [notice] 10#10: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 20:48:47 [notice] 10#10: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 20:48:47 [notice] 10#10: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 20:48:47 [notice] 10#10: start worker processes
+2021/10/28 20:48:47 [notice] 10#10: start worker process 12
+2021/10/28 20:48:47 [notice] 10#10: start worker process 13
+2021/10/28 20:49:30 [alert] 12#12: 1024 worker_connections are not enough
+2021/10/28 20:49:30 [error] 12#12: *1029 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 20.86.33.105, server: kerenapp.dev, request: "GET / HTTP/1.0", upstream: "http://20.86.33.105:80/", host: "20.86.33.105"
+2021/10/28 20:49:31 [alert] 12#12: 1024 worker_connections are not enough
+2021/10/28 20:49:31 [error] 12#12: *2060 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 20.86.33.105, server: kerenapp.dev, request: "GET /favicon.ico HTTP/1.0", upstream: "http://20.86.33.105:80/favicon.ico", host: "20.86.33.105", referrer: "http://20.86.33.105/"
+2021/10/28 20:49:37 [alert] 12#12: 1024 worker_connections are not enough
+2021/10/28 20:49:37 [error] 13#13: *3099 upstream prematurely closed connection while reading response header from upstream, client: 20.86.33.105, server: kerenapp.dev, request: "GET / HTTP/1.0", upstream: "http://20.86.33.105:80/", host: "20.86.33.105"
+2021/10/28 20:49:38 [alert] 12#12: 1024 worker_connections are not enough
+2021/10/28 20:49:38 [error] 12#12: *4130 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 20.86.33.105, server: kerenapp.dev, request: "GET /favicon.ico HTTP/1.0", upstream: "http://20.86.33.105:80/favicon.ico", host: "20.86.33.105", referrer: "http://20.86.33.105/"
+2021/10/28 20:51:21 [notice] 8#8: using the "epoll" event method
+2021/10/28 20:51:21 [notice] 8#8: nginx/1.21.3
+2021/10/28 20:51:21 [notice] 8#8: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 20:51:21 [notice] 8#8: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 20:51:21 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 20:51:21 [notice] 8#8: start worker processes
+2021/10/28 20:51:21 [notice] 8#8: start worker process 10
+2021/10/28 20:51:21 [notice] 8#8: start worker process 11
+2021/10/28 20:57:50 [emerg] 8#8: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:58:07 [emerg] 8#8: host not found in upstream "kerenapp.dev" in /etc/nginx/conf.d/site.conf:26
+2021/10/28 20:59:12 [emerg] 8#8: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/10/28 21:02:52 [emerg] 10#10: cannot load certificate "/etc/letsencrypt/live/example.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/example.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/10/28 21:04:29 [notice] 11#11: using the "epoll" event method
+2021/10/28 21:04:29 [notice] 11#11: nginx/1.21.3
+2021/10/28 21:04:29 [notice] 11#11: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 21:04:29 [notice] 11#11: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 21:04:29 [notice] 11#11: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 21:04:29 [notice] 11#11: start worker processes
+2021/10/28 21:04:29 [notice] 11#11: start worker process 13
+2021/10/28 21:04:29 [notice] 11#11: start worker process 14
+2021/10/28 21:22:49 [emerg] 10#10: cannot load certificate "/etc/ssl/certs/localhost.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/localhost.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/10/28 21:23:17 [notice] 9#9: using the "epoll" event method
+2021/10/28 21:23:17 [notice] 9#9: nginx/1.21.3
+2021/10/28 21:23:17 [notice] 9#9: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 21:23:17 [notice] 9#9: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 21:23:17 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 21:23:17 [notice] 9#9: start worker processes
+2021/10/28 21:23:17 [notice] 9#9: start worker process 11
+2021/10/28 21:23:17 [notice] 9#9: start worker process 12
+2021/10/28 21:29:29 [emerg] 460#460: invalid number of arguments in "root" directive in /etc/nginx/conf.d/site.conf:19
+2021/10/28 21:29:47 [emerg] 462#462: cannot load certificate "/etc/ssl/certs/nginxSSL/localhost.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/ssl/certs/nginxSSL/localhost.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/10/28 21:34:38 [notice] 9#9: signal 1 (SIGHUP) received from 533, reconfiguring
+2021/10/28 21:34:38 [notice] 9#9: reconfiguring
+2021/10/28 21:34:38 [notice] 9#9: using the "epoll" event method
+2021/10/28 21:34:38 [notice] 9#9: start worker processes
+2021/10/28 21:34:38 [notice] 9#9: start worker process 536
+2021/10/28 21:34:38 [notice] 9#9: start worker process 538
+2021/10/28 21:34:38 [notice] 12#12: gracefully shutting down
+2021/10/28 21:34:38 [notice] 11#11: gracefully shutting down
+2021/10/28 21:34:38 [notice] 12#12: exiting
+2021/10/28 21:34:38 [notice] 11#11: exiting
+2021/10/28 21:34:38 [notice] 12#12: exit
+2021/10/28 21:34:38 [notice] 11#11: exit
+2021/10/28 21:34:38 [notice] 9#9: signal 17 (SIGCHLD) received from 12
+2021/10/28 21:34:38 [notice] 9#9: worker process 11 exited with code 0
+2021/10/28 21:34:38 [notice] 9#9: worker process 12 exited with code 0
+2021/10/28 21:34:38 [notice] 9#9: signal 29 (SIGIO) received
+2021/10/28 21:34:38 [notice] 9#9: signal 17 (SIGCHLD) received from 11
+2021/10/28 21:35:34 [notice] 9#9: signal 1 (SIGHUP) received from 568, reconfiguring
+2021/10/28 21:35:34 [notice] 9#9: reconfiguring
+2021/10/28 21:35:34 [notice] 9#9: using the "epoll" event method
+2021/10/28 21:35:34 [notice] 9#9: start worker processes
+2021/10/28 21:35:34 [notice] 9#9: start worker process 569
+2021/10/28 21:35:34 [notice] 9#9: start worker process 570
+2021/10/28 21:35:34 [notice] 536#536: gracefully shutting down
+2021/10/28 21:35:34 [notice] 538#538: gracefully shutting down
+2021/10/28 21:35:34 [notice] 536#536: exiting
+2021/10/28 21:35:34 [notice] 538#538: exiting
+2021/10/28 21:35:34 [notice] 536#536: exit
+2021/10/28 21:35:34 [notice] 538#538: exit
+2021/10/28 21:35:34 [notice] 9#9: signal 17 (SIGCHLD) received from 536
+2021/10/28 21:35:34 [notice] 9#9: worker process 536 exited with code 0
+2021/10/28 21:35:34 [notice] 9#9: signal 29 (SIGIO) received
+2021/10/28 21:35:34 [notice] 9#9: signal 17 (SIGCHLD) received from 538
+2021/10/28 21:35:34 [notice] 9#9: worker process 538 exited with code 0
+2021/10/28 21:35:34 [notice] 9#9: signal 29 (SIGIO) received
+2021/10/28 21:36:39 [notice] 9#9: signal 1 (SIGHUP) received from 603, reconfiguring
+2021/10/28 21:36:39 [notice] 9#9: reconfiguring
+2021/10/28 21:36:39 [notice] 9#9: using the "epoll" event method
+2021/10/28 21:36:39 [notice] 9#9: start worker processes
+2021/10/28 21:36:39 [notice] 9#9: start worker process 607
+2021/10/28 21:36:39 [notice] 9#9: start worker process 608
+2021/10/28 21:36:39 [notice] 570#570: gracefully shutting down
+2021/10/28 21:36:39 [notice] 569#569: gracefully shutting down
+2021/10/28 21:36:39 [notice] 570#570: exiting
+2021/10/28 21:36:39 [notice] 569#569: exiting
+2021/10/28 21:36:39 [notice] 569#569: exit
+2021/10/28 21:36:39 [notice] 570#570: exit
+2021/10/28 21:36:39 [notice] 9#9: signal 17 (SIGCHLD) received from 569
+2021/10/28 21:36:39 [notice] 9#9: worker process 569 exited with code 0
+2021/10/28 21:36:39 [notice] 9#9: worker process 570 exited with code 0
+2021/10/28 21:36:39 [notice] 9#9: signal 29 (SIGIO) received
+2021/10/28 21:36:52 [error] 608#608: *19 "/www/html/index.html" is not found (20: Not a directory), client: 127.0.0.1, server: keren.dev, request: "GET / HTTP/1.1", host: "localhost"
+2021/10/28 21:37:20 [error] 608#608: *22 "/www/html/index.html" is not found (20: Not a directory), client: 81.218.201.11, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/28 21:37:21 [error] 608#608: *22 open() "/www/html/favicon.ico" failed (20: Not a directory), client: 81.218.201.11, server: keren.dev, request: "GET /favicon.ico HTTP/1.1", host: "20.86.33.105", referrer: "https://20.86.33.105/"
+2021/10/28 21:38:27 [error] 608#608: *25 "/www/html/index.html" is not found (20: Not a directory), client: 81.218.201.11, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/28 21:38:38 [error] 608#608: *25 "/www/html/index.html" is not found (20: Not a directory), client: 81.218.201.11, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/28 21:38:54 [error] 608#608: *25 "/www/html/index.html" is not found (20: Not a directory), client: 81.218.201.11, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/28 21:42:57 [notice] 12#12: using the "epoll" event method
+2021/10/28 21:42:57 [notice] 12#12: nginx/1.21.3
+2021/10/28 21:42:57 [notice] 12#12: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/28 21:42:57 [notice] 12#12: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/28 21:42:57 [notice] 12#12: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/28 21:42:57 [notice] 12#12: start worker processes
+2021/10/28 21:42:57 [notice] 12#12: start worker process 13
+2021/10/28 21:42:57 [notice] 12#12: start worker process 14
+2021/10/28 21:43:15 [error] 13#13: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 81.218.201.11, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/28 21:45:20 [error] 13#13: *7 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/28 21:45:21 [error] 13#13: *7 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET /favicon.ico HTTP/1.1", host: "20.86.33.105", referrer: "https://20.86.33.105/"
+2021/10/28 21:45:36 [error] 13#13: *7 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 08:10:48 [notice] 9#9: using the "epoll" event method
+2021/10/29 08:10:48 [notice] 9#9: nginx/1.21.3
+2021/10/29 08:10:48 [notice] 9#9: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/29 08:10:48 [notice] 9#9: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/29 08:10:48 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/29 08:10:48 [notice] 9#9: start worker processes
+2021/10/29 08:10:48 [notice] 9#9: start worker process 10
+2021/10/29 08:10:48 [notice] 9#9: start worker process 11
+2021/10/29 08:13:19 [error] 10#10: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 08:13:19 [error] 10#10: *6 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET /favicon.ico HTTP/1.1", host: "20.86.33.105", referrer: "https://20.86.33.105/"
+2021/10/29 08:13:24 [error] 10#10: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 08:13:31 [error] 10#10: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 08:13:39 [error] 10#10: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 08:13:40 [error] 10#10: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 08:13:50 [error] 10#10: *6 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:29:34 [notice] 9#9: using the "epoll" event method
+2021/10/29 09:29:34 [notice] 9#9: nginx/1.21.3
+2021/10/29 09:29:34 [notice] 9#9: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/29 09:29:34 [notice] 9#9: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/29 09:29:34 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/29 09:29:34 [notice] 9#9: start worker processes
+2021/10/29 09:29:34 [notice] 9#9: start worker process 11
+2021/10/29 09:29:34 [notice] 9#9: start worker process 12
+2021/10/29 09:30:02 [error] 12#12: *4 "/www/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:30:16 [error] 12#12: *4 "/www/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:30:23 [error] 12#12: *4 "/www/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:32:19 [notice] 9#9: using the "epoll" event method
+2021/10/29 09:32:19 [notice] 9#9: nginx/1.21.3
+2021/10/29 09:32:19 [notice] 9#9: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/29 09:32:19 [notice] 9#9: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/29 09:32:19 [notice] 9#9: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/29 09:32:19 [notice] 9#9: start worker processes
+2021/10/29 09:32:19 [notice] 9#9: start worker process 11
+2021/10/29 09:32:19 [notice] 9#9: start worker process 12
+2021/10/29 09:33:27 [error] 12#12: *4 "/var/www/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:33:38 [error] 12#12: *4 "/var/www/html/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:49:06 [notice] 8#8: using the "epoll" event method
+2021/10/29 09:49:06 [notice] 8#8: nginx/1.21.3
+2021/10/29 09:49:06 [notice] 8#8: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/29 09:49:06 [notice] 8#8: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/29 09:49:06 [notice] 8#8: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/29 09:49:06 [notice] 8#8: start worker processes
+2021/10/29 09:49:06 [notice] 8#8: start worker process 10
+2021/10/29 09:49:06 [notice] 8#8: start worker process 11
+2021/10/29 09:49:13 [error] 10#10: *3 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:49:15 [error] 10#10: *3 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 09:53:00 [error] 10#10: *7 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 37.142.156.147, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 10:07:14 [error] 10#10: *11 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 162.142.125.41, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 11:11:41 [error] 10#10: *18 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 104.206.128.18, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/"
+2021/10/29 11:36:08 [error] 10#10: *20 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 128.14.209.162, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105/"
+2021/10/29 12:28:02 [error] 10#10: *25 open() "/var/www/nginx-default/GponForm/diag_Form" failed (2: No such file or directory), client: 23.95.191.195, server: keren.dev, request: "POST /GponForm/diag_Form?style/ HTTP/1.1", host: "192.168.0.1:443"
+2021/10/29 13:14:05 [error] 10#10: *29 open() "/var/www/nginx-default/owa/auth/logon.aspx" failed (2: No such file or directory), client: 192.241.206.68, server: keren.dev, request: "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1", host: "20.86.33.105"
+2021/10/29 13:18:35 [error] 10#10: *31 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 128.1.248.42, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/29 13:31:21 [error] 10#10: *37 open() "/var/www/nginx-default/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
+2021/10/29 13:31:21 [error] 10#10: *38 open() "/var/www/nginx-default/index.php" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21"
+2021/10/29 13:31:21 [error] 10#10: *43 open() "/var/www/nginx-default/api/jsonws/invoke" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /api/jsonws/invoke HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/api/jsonws/invoke"
+2021/10/29 13:31:21 [error] 10#10: *49 open() "/var/www/nginx-default/solr/admin/info/system" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /solr/admin/info/system?wt=json HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/solr/admin/info/system?wt=json"
+2021/10/29 13:31:21 [error] 10#10: *44 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php>"
+2021/10/29 13:31:21 [error] 10#10: *52 open() "/var/www/nginx-default/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"
+2021/10/29 13:31:21 [error] 10#10: *53 open() "/var/www/nginx-default/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /Autodiscover/Autodiscover.xml HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/Autodiscover/Autodiscover.xml"
+2021/10/29 13:31:22 [error] 10#10: *54 open() "/var/www/nginx-default/_ignition/execute-solution" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /_ignition/execute-solution HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/_ignition/execute-solution"
+2021/10/29 13:31:22 [error] 10#10: *55 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET / HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80"
+2021/10/29 13:31:22 [error] 10#10: *56 "/var/www/nginx-default/index.html" is not found (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/?XDEBUG_SESSION_START=phpstorm"
+2021/10/29 13:31:22 [error] 10#10: *57 open() "/var/www/nginx-default/wp-content/plugins/wp-file-manager/readme.txt" failed (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/wp-content/plugins/wp-file-manager/readme.txt"
+2021/10/29 13:31:22 [error] 10#10: *58 "/var/www/nginx-default/console/index.html" is not found (2: No such file or directory), client: 45.146.164.110, server: keren.dev, request: "GET /console/ HTTP/1.1", host: "20.86.33.105", referrer: "http://20.86.33.105:80/console/"
+2021/10/30 08:56:55 [emerg] 1#1: unknown directive "20.86.33.105" in /etc/nginx/conf.d/site.conf:3
+2021/10/30 09:00:57 [notice] 1#1: using the "epoll" event method
+2021/10/30 09:00:57 [notice] 1#1: nginx/1.21.3
+2021/10/30 09:00:57 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 09:00:57 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 09:00:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 09:00:57 [notice] 1#1: start worker processes
+2021/10/30 09:00:57 [notice] 1#1: start worker process 23
+2021/10/30 09:00:57 [notice] 1#1: start worker process 24
+2021/10/30 09:01:18 [error] 24#24: *4 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 5.29.49.196, server: kerenapp.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/30 09:01:18 [error] 24#24: *4 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 5.29.49.196, server: kerenapp.dev, request: "GET /favicon.ico HTTP/1.1", host: "20.86.33.105", referrer: "https://20.86.33.105/"
+2021/10/30 10:11:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/30 10:11:02 [notice] 23#23: gracefully shutting down
+2021/10/30 10:11:02 [notice] 24#24: gracefully shutting down
+2021/10/30 10:11:02 [notice] 23#23: exiting
+2021/10/30 10:11:02 [notice] 24#24: exiting
+2021/10/30 10:11:02 [notice] 24#24: exit
+2021/10/30 10:11:02 [notice] 23#23: exit
+2021/10/30 10:11:02 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/30 10:11:02 [notice] 1#1: worker process 24 exited with code 0
+2021/10/30 10:11:02 [notice] 1#1: signal 29 (SIGIO) received
+2021/10/30 10:11:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/10/30 10:11:02 [notice] 1#1: worker process 23 exited with code 0
+2021/10/30 10:11:02 [notice] 1#1: exit
+2021/10/30 10:17:22 [notice] 1#1: using the "epoll" event method
+2021/10/30 10:17:22 [notice] 1#1: nginx/1.21.3
+2021/10/30 10:17:22 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/10/30 10:17:22 [notice] 1#1: OS: Linux 5.10.0-9-cloud-amd64
+2021/10/30 10:17:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/30 10:17:22 [notice] 1#1: start worker processes
+2021/10/30 10:17:22 [notice] 1#1: start worker process 32
+2021/10/30 10:17:22 [notice] 1#1: start worker process 33
+2021/10/30 10:17:37 [error] 32#32: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 5.29.49.196, server: kerenapp.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
+2021/10/30 10:17:58 [error] 32#32: *9 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 5.29.49.196, server: kerenapp.dev, request: "GET / HTTP/1.1", host: "20.86.33.105"
