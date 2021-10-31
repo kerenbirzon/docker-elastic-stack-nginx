@@ -6,9 +6,9 @@ go to http://localhost:5601 to see your data in Kibana
 
 Default Kibana user information
 
-Username: elastic
+**Username:** elastic
 
-Password: changeme
+**Password:** changeme
 
 
 By default, the stack exposes the following ports:
